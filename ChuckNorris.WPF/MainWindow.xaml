@@ -27,7 +27,8 @@
         <Label Content="Jokes' Categories" HorizontalContentAlignment="Center" Background="CadetBlue" Margin="0,-1,0,0" VerticalAlignment="Top" Width="199" Height="30"/>
         <RichTextBox Name="richTextBox" Background="CadetBlue"
                      Grid.Column="1" Margin="0,30,0,0"
-                     FontFamily="Segoe UI" FontSize="14">
+                     FontFamily="Segoe UI" FontSize="14"
+                     ScrollViewer.VerticalScrollBarVisibility="Visible">
         </RichTextBox>
     </Grid>
 </Window>
